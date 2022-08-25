@@ -1,0 +1,110 @@
+a {
+    text-decoration: none !important;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.navbar_top{
+    border-bottom: solid 7px rgb(16, 85, 4);
+    padding-right: 130px;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav_link{
+    color: rgb(35, 162, 236);
+    font-size: 30px;
+    padding: 25px;
+}
+
+.nav_link:hover{
+    background-color: rgb(16, 85, 4);
+    color: aliceblue;
+}
+
+
+/* midle */
+
+
+.header_midle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 300px;
+}
+
+.header_midle-left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left_title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: dimgrey;
+    font-size: 45px;
+}
+
+.header_midle-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+}
+
+.right_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: black;
+    font-size: 40px;
+}
+
+.input{
+    padding: 20px;
+}
+
+.righ_right{
+    display: flex;
+}
+
+.search_input{
+    width: 45vh;
+    padding: 20px;
+}
+
+.search_btn{
+    background-color: rgb(16, 85, 4);
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+/* bottom */
+
+.header_bottom{
+    background-color: rgb(16, 85, 4);
+    padding: 20px 300px;
+}
+
+.header_bottom-list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.header_bottom-link{
+    font-size: 30px;
+    color: white;
+}
+
+
+
